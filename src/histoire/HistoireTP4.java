@@ -10,10 +10,10 @@ public class HistoireTP4 {
 //		prof.boire();
 //		prof.acheter("un jeu", 2);
 //		prof.acheter("kimono", 50);
-		Commercant pablo = new Commercant("Pablo","thé",20);
-		pablo.direBonjour();
-		pablo.seFaireExtorquer();
-		pablo.recevoir(15);
-		pablo.boire();
+//		Commercant pablo = new Commercant("Pablo","thé",20);
+//		pablo.direBonjour();
+//		pablo.seFaireExtorquer();
+//		pablo.recevoir(15);
+//		pablo.boire();
 	}
 }
