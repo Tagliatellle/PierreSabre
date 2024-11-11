@@ -11,9 +11,11 @@ public class Ronin extends Humain {
 	}
 
 	public void donner(Commercant beneficiaire) {
-		int argentPerdu = (int) (argent*0.1);
-		parler(beneficiaire.getNom()+" prend ces"+argentPerdu+" sous.");
+//		int argentPerdu = (int) (argent/10);
+		int argentPerdu = getArgent()/10;
+		parler(beneficiaire.getNom()+" prend ces "+argentPerdu+" sous.");
 		beneficiaire.gagnerArgent(argentPerdu);
 		argent-=argentPerdu;
+		beneficiaire.parler(argentPerdu+" sous ! Je te remercie généreux donateur!");
 	}
 }
