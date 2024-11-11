@@ -31,5 +31,10 @@ public class HistoireTP4 {
 //		Commercant marco = new Commercant("Marco", "Thé", 15);
 //		roro.direBonjour();
 //		roro.donner(marco);
+		
+		Ronin roro = new Ronin("Roro","Shochu",54);
+		Yakuza yaku = new Yakuza("Yaku Le Noir","whisky",45,"Warsong");
+		roro.provoquer(yaku);
+		
 	}
 }

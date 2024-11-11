@@ -18,4 +18,21 @@ public class Yakuza extends Humain {
 		gagnerArgent(argentVole);
 		parler("J'ai piqué les "+argentVole+" sous de "+victime.getNom()+", ce qui me fait "+getArgent()+" sous dans ma poche. Hi ! Hi !");
 	}
+	
+	public void perdre() {
+		perdreArgent(getArgent());
+	}
+	
+	public void gagner(int gain) {
+		gagnerArgent(gain);
+	}
+
+	public int getReputation() {
+		return reputation;
+	}
+
+	public String getClan() {
+		return clan;
+	}
+	
 }
